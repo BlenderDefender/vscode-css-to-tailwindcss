@@ -50,7 +50,7 @@
         "cssToTailwindCss.arbitraryProperties": {
           "type": "boolean",
           "default": false,
-          "markdownDescription": "Defines whether non-convertible properties should be converted as 'arbitrary properties'."
+          "markdownDescription": "Convert CSS properties that Tailwind doesn't include a utility class for to 'arbitrary properties' using square bracket notation. Example: '*animation-delay: 200ms*' would be converted to '*[animation-delay:200ms]*'. This setting doesn't affect square bracket notation for existing utility classes."
         }
       }
     }
